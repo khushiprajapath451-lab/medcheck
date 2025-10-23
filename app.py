@@ -5,7 +5,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import tempfile, datetime
 import PyPDF2
-api_key = st.secrets["GEMINI_API_KEY"]
+
 
 # ---------- Page config ----------
 st.set_page_config(page_title="MedCheck", page_icon="💉", layout="centered")
