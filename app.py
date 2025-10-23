@@ -11,41 +11,6 @@ import PyPDF2
 st.set_page_config(page_title="MedCheck", page_icon="💉", layout="centered")
 
 # ---------- Styles: light green + white ----------
-page_style = """
-<style>
-/* page background */
-[data-testid="stAppViewContainer"] {
-  background: linear-gradient(180deg, #f5fff6 0%, #ffffff 45%);
-}
-/* main container card */
-main .block-container {
-  background-color: rgba(255,255,255,0.95);
-  padding: 2rem 2rem 2.5rem 2rem;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
-}
-
-/* headers */
-h1, h2, h3 {
-  color: #0f5132;
-}
-
-/* button style */
-.stButton>button {
-  background: linear-gradient(90deg,#a7e3b8,#7fd19a);
-  color: #034a20;
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-}
-
-/* small text */
-.small-muted {
-  color: #436a53;
-  font-size: 0.9rem;
-}
-</style>
-"""
-st.markdown(page_style, unsafe_allow_html=True)
 
 # ---------- Title ----------
 st.title("MedCheck — AI for Patient Safety")
